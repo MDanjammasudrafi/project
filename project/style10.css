@@ -1,0 +1,55 @@
+.name{
+    text-align: center;
+    color: goldenrod;
+    background-color: rgb(235, 235, 235);
+}
+.leading{
+    margin: 5px 0;
+}
+.nav{
+    width: auto;
+    height: 50px;
+    background-color: azure;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding-top: 4px;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+
+.all-course{
+    display: none;
+   
+}
+.all-course a{
+        
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .active, li:hover{
+        background: #2ba;
+        border-radius: 3px;
+    }
+li:hover .all-course
+{
+    display: block;
+    position: absolute;
+    background: rgb(235, 235, 235);
+    margin-left: 15px;
+    
+}
+li:hover ul
+{
+ display: block;
+ margin: 10px;
+ float: none;
+}
